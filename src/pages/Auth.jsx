@@ -96,11 +96,11 @@ function Auth({register}) {
 
 
   return (
-    <div style={{width:'100%',height:'100vh', display:'flex', justifyContent:'center',alignItems:'center'}}>
+    <div className='my-5' style={{width:'100%', display:'flex', justifyContent:'center',alignItems:'center'}}>
       <div className='container w-75'>
         <h4 ><Link to={'/'} className='text-warning' style={{textDecoration:'none'}}><FontAwesomeIcon icon={faArrowLeft} />Back Home</Link></h4>
 
-      <div className='bg-success p-3'>
+      <div className='bg-success p-3 '>
         <Row>
           <Col md={6} className="p-4 d-flex justify-content-center align-items-center">
           <img src="https://cdn.pixabay.com/animation/2023/06/13/15/12/15-12-30-710_512.gif" alt="no img" width={'70%'}/>

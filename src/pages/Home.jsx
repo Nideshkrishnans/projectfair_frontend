@@ -30,7 +30,7 @@ function Home() {
 
   return (
     <>
-    <div className='container-fluid bg-success p-4 mb-4' style={{width:'100%',height:'100vh'}}>
+    <div className='container-fluid bg-success p-4 mb-4' style={{width:'100%'}}>
       <Row className='mt-5'>
         <Col md={6} className='d-flex justify-content-center align-items-center flex-column'>
         <div>
@@ -42,7 +42,7 @@ function Home() {
         </Col>
 
         <Col md={6} className='d-flex justify-content-center align-items-center flex-column mt-5'>
-        <img src='https://websitebasics.com/_next/static/media/designer.10f23e7c.svg' alt="no images" width={'75%'} />
+        <img src='https://websitebasics.com/_next/static/media/designer.10f23e7c.svg' alt="no images" width={'400px'} />
         </Col>
       </Row>
 

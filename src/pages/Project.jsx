@@ -61,7 +61,7 @@ function Project() {
       <div className='mt-5 w-100 row' >
         <div className="col-md-4"></div>
 
-        <div className="col-md-4 p-4 d-flex align-items-center justify-content-center flex-column">
+        <div className="col-md-4 d-flex align-items-center justify-content-center flex-column">
           <img src="https://cdn.pixabay.com/animation/2023/06/13/15/12/15-12-30-710_512.gif" alt="no-img" width={'70%'} height={'300px'}/>
           <h4 className='mt-4 text-center'>please <Link to={'/login'} className='text-danger'>login</Link> to explore more projects</h4>
         </div>
